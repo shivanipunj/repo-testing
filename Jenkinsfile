@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shivanipunj/devops-demo"
+        IMAGE_NAME = "shivani0404/devops-demo"
         TAG = "${BUILD_NUMBER}"
     }
 
